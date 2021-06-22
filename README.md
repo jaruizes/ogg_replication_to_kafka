@@ -11,6 +11,20 @@ Para poder ejecutar este ejemplo necesitas;
 
 # Setup
 
+## SSH
+
+Es necesario generar las claves SSH que usará Terraform para montar las instancias EC2 y que posteriormente usaremos para conectarnos a ellas. Debemos lanzar:
+
+```
+ssh-keygen -q -N "" -f iac/ssh/ssh_gg
+```
+
+que creará dentro de la carpeta iac/ssh el par de claves SSH.
+
+
+
+## Infraestructura en AWS
+
 Se proporciona un fichero Dockerfile que monta una imagen con Terraform y el cliente de AWS para no tener que instalarlo en local.
 
 Para construir la imagen, debes ejecutar:
