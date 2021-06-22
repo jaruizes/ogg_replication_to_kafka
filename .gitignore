@@ -36,3 +36,6 @@ $RECYCLE.BIN/
 .terraform.*
 terraform.tfstate
 terraform.tfstate.*
+
+iac/ssh/ssh_gg
+iac/ssh/ssh_gg.pub
