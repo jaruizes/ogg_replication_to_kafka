@@ -23,5 +23,3 @@ RUN mkdir /root/iac
 
 #COPY iac/ /root/iac/
 WORKDIR /root/iac/
-
-
